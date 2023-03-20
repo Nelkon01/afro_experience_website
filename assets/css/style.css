@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 *{
   margin:0;
@@ -11,12 +12,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 .heading {
-  text-transform: uppercase;
+  font-family: 'Pacifico', sans-serif;
 }
 .hero-container {
   max-width: 100%;
   height: 100vh;
-  background: url("../images/hero.jpeg");
+  background: url("../images/party-celebration-wallpaper-background-monochrome.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -52,7 +53,8 @@ body {
 h2, p {
   color: aliceblue;
 }
- 
+
+
 /* ------------footer ------------*/
 /* .footer {
   padding: 50px 0;
@@ -81,3 +83,94 @@ h2, p {
   margin-right: 10px;
 } */
 
+/* Gallery Photos */
+/* #photo {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0px;
+}
+
+#photo img{
+  width: 100%;
+} */
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
+  gap: 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.gallery-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+/* ----------- Form Section -----------*/
+/* Style the form container */
+.contact-us {
+  background-color: #1a1a1a;
+  padding: 50px 0;
+  background-image: url('../images/person-wearing-fluorescent-make-up.jpg');
+  background-size: cover;
+}
+.contact-form {  
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* Style the form headings */
+.contact-form h2 {
+  color: #fafafa;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+/* Style the form labels */
+.contact-form label {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style the form inputs */
+/* .contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="number"],
+.contact-form textarea {
+  background-color: #282828;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+} */
+
+/* Style the radio buttons */
+.contact-form input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Style the form submit button */
+.contact-form input[type="submit"] {
+  background-color: orangered;
+  border: 2px;
+  border-radius: 45px;
+  color: #fff;
+  font-size: 15px;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
