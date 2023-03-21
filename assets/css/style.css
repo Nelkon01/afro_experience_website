@@ -14,6 +14,10 @@ body {
   background-color: black;
   font-family: 'Lato', sans-serif;
 }
+h2, p {
+  color: aliceblue;
+}
+
 .heading {
   font-family: 'Fredericka the Great', sans-serif;
 }
@@ -35,6 +39,12 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.25);
 }
+.navbar>.container-fluid {
+  padding: 0 7px;
+}
+.navbar-expand-sm {
+  padding: 0;
+}
 .navbar .navbar-toggler{
   border: 0;
 }
@@ -48,17 +58,30 @@ body {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-
-.about > h2 {
-  color: aliceblue;
+.opaque-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-h2, p {
+.jumbotron-header,
+.jumbotron-sub,
+.jumbotron-sub-sub {
+  color: whitesmoke;
+}
+
+/* ------about */
+.about > h2 {
   color: aliceblue;
 }
 .about {
   text-align: justify;
 }
+
+
+.description {
+  text-align: justify;
+}
+
+
 
 /* ------------footer ------------*/
 /* .footer {
@@ -89,30 +112,6 @@ h2, p {
 } */
 
 
-
-/* --- ---- Gallery  */
-/* .gallery-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minimax(250px, 1fr));
-  grid-gap: 20px;
-}
-.gallery-container img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-} */
-/* @media screen and (min-width: 768px) {
-  .gallery-container {
-    grid-template-columns: repeat(2, minimax(250px, 1fr));
-  }
-}
-@media screen and (min-width: 1200px) {
-  .gallery-container {
-    grid-template-columns: repeat(3, minimax(250px, 1fr));
-  }
-} */
 
 .gallery-container {
   display: grid;
