@@ -1,25 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet');
 
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rubik+80s+Fade&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Rubik+80s+Fade&display=swap");
 
-
-
-*{
-  margin:0;
-  padding:0;
-  border:0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 body {
   background-color: black;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
-h2, p {
+h2,
+p {
   color: aliceblue;
 }
 
 .heading {
-  font-family: 'Fredericka the Great', sans-serif;
+  font-family: "Fredericka the Great", sans-serif;
 }
 .hero-container {
   max-width: 100%;
@@ -33,19 +32,19 @@ h2, p {
   position: relative;
 }
 /* Navbar */
-.navbar{
+.navbar {
   margin-bottom: 0;
   border: 0;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.25);
 }
-.navbar>.container-fluid {
+.navbar > .container-fluid {
   padding: 0 7px;
 }
 .navbar-expand-sm {
   padding: 0;
 }
-.navbar .navbar-toggler{
+.navbar .navbar-toggler {
   border: 0;
 }
 .navbar-brand {
@@ -59,7 +58,7 @@ h2, p {
 }
 
 .opaque-overlay {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .jumbotron-header,
@@ -76,12 +75,9 @@ h2, p {
   text-align: justify;
 }
 
-
 .description {
   text-align: justify;
 }
-
-
 
 /* ------------footer ------------*/
 /* .footer {
@@ -111,8 +107,6 @@ h2, p {
   margin-right: 10px;
 } */
 
-
-
 .gallery-container {
   display: grid;
   grid-gap: 20px;
@@ -126,7 +120,7 @@ h2, p {
 }
 
 @media screen and (min-width: 1200px) {
-  .gallery-container{
+  .gallery-container {
     grid-template-columns: repeat(3, minmax(250px, 1fr));
   }
 }
@@ -137,16 +131,15 @@ h2, p {
   object-fit: contain;
 }
 
-
 /* ----------- Form Section -----------*/
 /* Style the form container */
 .contact-us {
   background-color: #1a1a1a;
   padding: 50px 0;
-  background-image: url('../images/person-wearing-fluorescent-make-up.jpg');
+  background-image: url("../images/person-wearing-fluorescent-make-up.jpg");
   background-size: cover;
 }
-.contact-form {  
+.contact-form {
   background-color: rgba(0, 0, 0, 0.6);
 }
 /* Style the form headings */
@@ -162,7 +155,6 @@ h2, p {
   font-size: 18px;
   margin-bottom: 10px;
 }
-
 
 /* Style the radio buttons */
 .contact-form input[type="radio"] {
