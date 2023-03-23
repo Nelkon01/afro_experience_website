@@ -20,6 +20,7 @@ p {
 .heading {
   font-family: "Fredericka the Great", sans-serif;
 }
+
 .hero-container {
   max-width: 100%;
   height: 100vh;
@@ -177,4 +178,25 @@ p {
   background-color: #fff;
   color: #333;
   cursor: pointer;
+}
+
+/* thanks page */
+
+.thank-you {
+  height: 100vh;
+  background-image: url("../images/thank-you-background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.thanks-msg {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.thanks-msg > h1 {
+  color: #fafafa;
+}
+#thanks-message {
+  text-align: center;
 }
