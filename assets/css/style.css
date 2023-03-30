@@ -96,7 +96,13 @@ p {
 .description {
   text-align: justify;
 }
-
+.card-body {
+  color: #ff4c4c;
+  background-color: #121036;
+}
+.link-danger {
+  color: #c3ff5b!important;
+}
 /* ------------footer ------------*/
 /* .footer {
   padding: 50px 0;
@@ -168,6 +174,7 @@ p {
 /* Style the form container */
 .contact-us {
   background-color: #1a1a1a;
+  height: 95vh;
   padding: 50px 0;
   background-image: url("../images/contact-background.webp");
   background-size: cover;
