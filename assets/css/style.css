@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 
 body {
   background-color: black;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 h2,
 p {
@@ -117,16 +117,7 @@ nav ul li:hover::after {
   text-align: justify;
 }
 
-/* Event Details
-.tickets {
-  padding: 0.9375rem;
-  background-color: #000;
-}
-h1, h2, h3, h4 {
-  color: #ffffff;
-  margin: 0 0 0.375rem;
-} */
-
+/* Event Details*/
 .description {
   text-align: justify;
 }
