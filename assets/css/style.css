@@ -43,7 +43,16 @@ p {
     position: relative;
   }
 }
-
+.cta-button {
+  background-color: #212529;
+  border: none;
+  color: aliceblue;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
 /* Navbar */
 .navbar {
   margin-bottom: 0;
