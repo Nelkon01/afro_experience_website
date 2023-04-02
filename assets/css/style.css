@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&family=Montserrat&display=swap");
 
 * {
   margin: 0;
@@ -135,9 +135,12 @@ nav ul li:hover::after {
   background-color: #121036;
 }
 .link-danger {
-  color: #c3ff5b!important;
+  color: #c3ff5b !important;
 }
-
+.maps > iframe {
+  height: 340px;
+  width: 100%;
+}
 /* --- Gallery Section */
 .video-container {
   position: relative;
@@ -176,8 +179,8 @@ nav ul li:hover::after {
   object-fit: contain;
 }
 .py-5 {
-  padding-top: 3rem!important;
-  padding-bottom: 3rem!important;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
   margin-right: 0;
   margin-left: 0;
 }
