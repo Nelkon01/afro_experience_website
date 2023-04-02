@@ -188,7 +188,7 @@ nav ul li:hover::after {
 /* Style the form container */
 .contact-us {
   background-color: #1a1a1a;
-  height: 95vh;
+  height: 100%;
   padding: 50px 0;
   background-image: url("../images/contact-background.webp");
   background-size: cover;
