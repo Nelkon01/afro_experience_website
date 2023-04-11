@@ -6,7 +6,8 @@
   border: 0;
 }
 
-html, body {
+html,
+body {
   background-color: black;
   font-family: "Montserrat", sans-serif;
   height: 100%;
@@ -196,7 +197,7 @@ nav ul li:hover::after {
   min-height: 100vh;
   width: 100%;
   display: flex;
-  }
+}
 .contact-form {
   background-color: rgba(0, 0, 0, 0.6);
 }
