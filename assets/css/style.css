@@ -53,7 +53,13 @@ p {
   text-decoration: none;
   font-size: 20px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
   border-radius: 4px;
+}
+.cta-button:hover {
+  background-color: aliceblue;
+  color: orangered;
+  cursor: hover;
 }
 /* Navbar */
 .navbar {
@@ -88,23 +94,13 @@ nav ul li {
   position: relative;
   transition: color 0.5s;
 }
-nav ul li::after {
-  content: "";
-  background: #c45b06e5;
-  width: 100%;
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   height: 100%;
-  position: absolute;
-  border-radius: 50px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  opacity: 0;
-  transition: top 0.6s, opacity 0.6s;
-}
-nav ul li:hover::after {
-  top: 50%;
-  opacity: 1;
+  width: 100%;
+  border-radius: 45px;
 }
 
 .opaque-overlay {
