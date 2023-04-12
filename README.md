@@ -4,26 +4,6 @@
 AFRO EXPERIENCE is a periodic event that aims to bring the best of afro-beats and african music to Swansea, U.K.
 The AFRO EXPERIENCE website is designed to provide information about the event, showcase photos and videos from past events, and allow potential sponsors and performers to get in touch with us.
 
-## Web Screenshots
-### Mobile
-![Homepage Mobile](assets/images/Home-Mobile.png)
-![Gallery page Mobile](assets/images/Gallery-mobile.png)
-![Contact page Mobile](assets/images/Contact-Mobile.png)
-
-### Ipad
-![Homepage page Ipad](assets/images/ipad-homepage.png)
-![Gallery page Ipad](assets/images/ipad-gallery.png)
-![Contact page Ipad](assets/images/ipad-contact.png)
-
-### PC
-![Homepage page PC](assets/images/pc-homepage.png)
-![Homepage page PC](assets/images/pc-home2.png)
-![Homepage page PC](assets/images/pc-home3.png)
-
-![Gallery page PC](assets/images/pc-gallerypage.png)
-![Gallery page PC](assets/images/pc-gallery2.png)
-![PC](assets/images/pc-contact.png)
-![Thankspage PC](assets/images/pc-thankspage.png)
 
 ## User Experience (UX)
 
@@ -53,10 +33,11 @@ The AFRO EXPERIENCE website is designed to provide information about the event, 
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main color scheme used here is black, which was was chosen to maintain the club-nights nature of the event. 
-        -   THe colors used are Black, Navy Blue, and white for the text.
+        -   The main color scheme used here is black, which was was chosen to maintain the club-nights nature of the event theme. 
+        -   The colors used are Black, Navy Blue, Orangered and white for the text.
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -    The "Fasthand" font was used for the Website heading. 
     -   #### Imagery
         -   Imagery is important. The large, background hero image is a pictured image which is striking will catch the user's attention to represent fun nature of the event. 
         -   Images from past events have also been included in a gallery page of the website to how further evidence of what the event is about and how well attended they are. 
@@ -98,6 +79,36 @@ The AFRO EXPERIENCE website is designed to provide information about the event, 
 ### PC
 ![PC Wireframe](assets/images/pc_wireframe.png)
 
+## Responsiveness
+
+### Screenshots
+## Mobile
+#### 1. Home Page
+![Homepage Mobile](assets/images/Home-Mobile.png)
+### 2. Galllery Page
+![Gallery page Mobile](assets/images/Gallery-mobile.png)
+### 3. Contact Page
+![Contact page Mobile](assets/images/Contact-Mobile.png)
+
+## Ipad
+### 1. Home Page
+![Homepage page Ipad](assets/images/ipad-homepage.png)
+### 2. Galllery Page
+![Gallery page Ipad](assets/images/ipad-gallery.png)
+### 3. Contact Page
+![Contact page Ipad](assets/images/ipad-contact.png)
+
+## PC
+### 1. Home Page
+![Homepage page PC](assets/images/pc-homepage.png)
+![Homepage page PC](assets/images/pc-home2.png)
+![Homepage page PC](assets/images/pc-home3.png)
+### 2. Galllery Page
+![Gallery page PC](assets/images/pc-gallerypage.png)
+![Gallery page PC](assets/images/pc-gallery2.png)
+### 3. Contact Page
+![PC](assets/images/pc-contact.png)
+![Thankspage PC](assets/images/pc-thankspage.png)
 
 ## Features 
 
@@ -267,7 +278,6 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The code to assist with the layout and responsiveness of the gallery page was gotten from this [CSS Tricks](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/#:~:text=grid%2Dtemplate%2Dcolumns%3A%20repeat(%20auto%2Dfit%2C,them%20in%20without%20any%20overflow.))
 
-- 
 
 
 ### Content

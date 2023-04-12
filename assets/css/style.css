@@ -12,7 +12,10 @@ body {
   font-family: "Montserrat", sans-serif;
   height: 100%;
 }
-h2,
+h2 {
+  color: aliceblue;
+  background-color: black;
+}
 p {
   color: aliceblue;
 }
@@ -59,7 +62,6 @@ p {
 .cta-button:hover {
   background-color: aliceblue;
   color: orangered;
-  cursor: hover;
 }
 /* Navbar */
 .navbar {
@@ -111,6 +113,7 @@ nav ul li {
 .jumbotron-sub,
 .jumbotron-sub-sub {
   color: whitesmoke;
+  background: none;
 }
 .jumbotron-header {
   text-align: center;
