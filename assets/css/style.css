@@ -251,8 +251,8 @@ nav ul li {
 .thanks-msg {
   background-color: rgba(0, 0, 0, 0.6);
 }
-.thanks-msg > h1 {
-  color: #fafafa;
+.thanks-heading {
+  background-color: transparent;
 }
 #thanks-message {
   text-align: center;

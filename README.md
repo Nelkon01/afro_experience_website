@@ -4,80 +4,92 @@
 AFRO EXPERIENCE is a periodic event that aims to bring the best of afro-beats and african music to Swansea, U.K.
 The AFRO EXPERIENCE website is designed to provide information about the event, showcase photos and videos from past events, and allow potential sponsors and performers to get in touch with us.
 
+# Contents
 
-## User Experience (UX)
+* [**Objective**](<#objective>)
+* [**User Experience**](<#user-experience-ux>)
+  * [**User Stories**](<#user-stories>)
+  * [**Wireframes**](<#wireframes>)
+  * [**Structure**](<#structure>)
+  * [**Design**](<#design>)
+    * [**Colour Palette**](<#colour-palette>)
+    * [**Typography**](<#typography>)
+* [**Features**](<#features>)
+  * [**Existing Features**](<#existing-features>)
+    * [**Navigation Bar**](<#navigation-bar>)
+    * [**Hero Image**](<#hero-image>)
+    * [**About Section**](<#about-section>)
+    * [**Parallax Image**](<#parallax-image>)
+    * [**Notice & Events**](<#notice--events>)
+    * [**Footer**](<#footer>)
+    * [**Gallery**](<#gallery>)
+    * [**Membership & Contact Page**](<#membership--contact-page>)
+    * [**Event Calendar Page**](<#event-calendar-page>)
+  * [**Features I would like to Implement**](<#features-i-would-like-to-implement>)
+* [**Technologies Used**](<#technologies-used>)
+* [**Testing**](<#testing>)
+* [**Validator Testing**](<#validator-testing>)
+  * [**index.html**](<#indexhtml>)
+  * [**gallery.html**](<#galleryhtml>)
+  * [**signup.html**](<#signuphtml>)
+  * [**events.html**](<#eventshtml>)
+  * [**style.css**](<#stylecss>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+  * [**Content**](<#content>)
+  * [**Media**](<#media>)
+* [**Acknowledgments**](<#acknowledgments>)
 
--   ### User stories
+# **Objective**
+To fufil the requirements of my portfolio project one, I am developing this website to provide information about an Afro-Beats periodic event. This website is indended to demonstrate competency in usercentric frontend web development using HTML and CSS. This project will also showcase my attention to details and the importance of thorough testing. 
 
-    -   #### First Time Visitor Goals:
+# **User Experience (UX)**
 
-       1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the event.
+-   ## **User stories**
 
-       2. As a First Time Visitor, I want to be able to easily navigate through the site to buy tickets for the next event.
+    -   ### First Time Visitor Goals:
 
-       3. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the event.
 
-       4. As a First Time Visitor, I want to look for testimonials to understand what previous atendees think of te event and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+        2. As a First Time Visitor, I want to be able to easily navigate through the site to buy tickets for the next event.
 
-       5. As a first time user 
+        3. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+        4. As a First Time Visitor, I want to look for testimonials to understand what previous atendees think of te event and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
+
         
 
-    -   #### Returning Visitor Goals:
+    -   ### Returning Visitor Goals:
 
         1. As a Returning Visitor, I want to ensure the details and information about the event is still the same.
         2. As a Returning Visitor, I want to find the best way to get in contact with the event organisers for sponsorship oppotunities or enquiries.
 
-    -   #### Frequent User Goals:
+    -   ### Frequent User Goals:
 
         1. As a Frequent User, I want to check to see if there are any new events coming up.
+-   ## **Wireframes**
+    ### Mobile
+    ![Mobile Wireframe](assets/images/mobile_wireframe.png)
+    ### Tablet
+    ![Tablet Wireframe](assets/images/tablet_wireframe.png)
+    ### PC
+    ![PC Wireframe](assets/images/pc_wireframe.png)
+-   ## **Structure**
 
--   ### Design
-    -   #### Colour Scheme
+    Afro Experience website is a 4 page website where 3 of the pages has it's own navigation link in the navbar at the top of the page. The [Home Page](https://nelkon01.github.io/afro_experience_website/index.html) is the default landing page. The user can easily navigate to the [Gallery](https://nelkon01.github.io/afro_experience_website/gallery.html) and the [Conntact Page](https://nelkon01.github.io/afro_experience_website/contact.html) via the navigation links on all devices. The [Thanks Page](https://nelkon01.github.io/afro_experience_website/thanks.html?first_name=fef&last_name=fef&email_address=adeniyioyenekan%40gmail.com&contact-type=enquiries&details=fefe) is only accessible upon suucessful completion of the contact form. 
+
+
+-   ## **Design**
+    -   ### Colour Scheme
         -   The main color scheme used here is black, which was was chosen to maintain the club-nights nature of the event theme. 
         -   The colors used are Black, Navy Blue, Orangered and white for the text.
-    -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-        -    The "Fasthand" font was used for the Website heading. 
-    -   #### Imagery
+    -   ### Typography
+        -   The [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mont) font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -    The [Fasthand](https://fonts.google.com/specimen/Fasthand?query=fasthand) font was used for the Website heading. 
+    -   ### Imagery
         -   Imagery is important. The large, background hero image is a pictured image which is striking will catch the user's attention to represent fun nature of the event. 
         -   Images from past events have also been included in a gallery page of the website to how further evidence of what the event is about and how well attended they are. 
 
-## Technologies Used
-
-### Languages Used
-
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
-### Frameworks, Libraries & Programs Used
-
-1. [Bootstrap 5.3:](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
-2. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Montserrat' and the 'Fasthand' font into the style.css file which is used on all pages throughout the project.
-3. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages to show the social media icons in the footer, and on the contact page of the website to add icons for aesthetic and UX purposes.
-4. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive.
-5. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Visual Studio Code terminal to commit to Git and Push to GitHub.
-6. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-7. [Freepik:](https://www.freepik.com/popular-photos)
-    - Freepik was used to find cool high quality pictures which was used for the background 
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
-8. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
- 
-
-
-## Wireframes
-### Mobile
-![Mobile Wireframe](assets/images/mobile_wireframe.png)
-### Tablet
-![Tablet Wireframe](assets/images/tablet_wireframe.png)
-### PC
-![PC Wireframe](assets/images/pc_wireframe.png)
 
 ## Responsiveness
 
@@ -109,6 +121,39 @@ The AFRO EXPERIENCE website is designed to provide information about the event, 
 ### 3. Contact Page
 ![PC](assets/images/pc-contact.png)
 ![Thankspage PC](assets/images/pc-thankspage.png)
+
+
+
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Bootstrap 5.3:](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+2. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Montserrat' and the 'Fasthand' font into the style.css file which is used on all pages throughout the project.
+3. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages to show the social media icons in the footer, and on the contact page of the website to add icons for aesthetic and UX purposes.
+4. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive.
+5. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Visual Studio Code terminal to commit to Git and Push to GitHub.
+6. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+7. [Freepik:](https://www.freepik.com/popular-photos)
+    - Freepik was used to find cool high quality pictures which was used for the background 
+    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+8. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+ 
+
+
+
 
 ## Features 
 
