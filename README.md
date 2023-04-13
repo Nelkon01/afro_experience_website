@@ -1,8 +1,13 @@
 
-# AFRO EXPERIENCE
+# **AFRO EXPERIENCE**
 
 AFRO EXPERIENCE is a periodic event that aims to bring the best of afro-beats and african music to Swansea, U.K.
 The AFRO EXPERIENCE website is designed to provide information about the event, showcase photos and videos from past events, and allow potential sponsors and performers to get in touch with us.
+
+![Live Website Screenshot](assets/images/responsive.png)
+The above website screenshot was generated using [ui.dev/amiresponsive](https://ui.dev/amiresponsive)
+
+To view the live website on GitHub Pages click [Afro-Experience](https://nelkon01.github.io/afro_experience_website/index.html)
 
 # Contents
 
@@ -12,8 +17,9 @@ The AFRO EXPERIENCE website is designed to provide information about the event, 
   * [**Wireframes**](<#wireframes>)
   * [**Structure**](<#structure>)
   * [**Design**](<#design>)
-    * [**Colour Palette**](<#colour-palette>)
+    * [**Colour Scheme**](<#colour-scheme>)
     * [**Typography**](<#typography>)
+    * [**Imagery**](<#imagery>)
 * [**Features**](<#features>)
   * [**Existing Features**](<#existing-features>)
     * [**Navigation Bar**](<#navigation-bar>)
@@ -55,9 +61,7 @@ To fufil the requirements of my portfolio project one, I am developing this webs
 
         3. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
 
-        4. As a First Time Visitor, I want to look for testimonials to understand what previous atendees think of te event and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.
-
-        
+        4. As a First Time Visitor, I want to look for testimonials to understand what previous atendees think of te event and see if they are trusted. I also want to locate their social media links to see their following on social media to determine how trusted and known they are.    
 
     -   ### Returning Visitor Goals:
 
@@ -89,6 +93,38 @@ To fufil the requirements of my portfolio project one, I am developing this webs
     -   ### Imagery
         -   Imagery is important. The large, background hero image is a pictured image which is striking will catch the user's attention to represent fun nature of the event. 
         -   Images from past events have also been included in a gallery page of the website to how further evidence of what the event is about and how well attended they are. 
+
+# **Features**
+      
+    The Afro Experience website includes very useful features as listed below. They include familiar functionalities such as navigation, gallery and contact form. The website is designed for users to experience ease of use in browsing and navigating through the website. It takes the mobile first approach to website design acknowledging the fact that most web users in the world at the momemnt consume web content on their mobile phione.
+
+  ## **Existing Features**
+
+  ### **Navigation Bar**
+
+  The logo and website name is situated at the top of the website and redirects the user to the homepage which represents good user experience. The Logo was created using [BrandCrowd's](https://www.brandcrowd.com/) free online logo maker. The Brand text is [Fasthand](https://fonts.google.com/specimen/Fasthand?query=fasthand) which was imported into the project using Google fonts.
+
+  ![Logo](assets/images/logo.webp)
+
+  - #### Mobile
+    This wsebsite was developed taking the mombile first approach, therefore i ensured that the website doesnt lose any functionality regardless of the device the user is engaging with. The nav items collapses into a hamburger button that expands when clicked by the user to reveal the nav items. 
+
+    ![Mobile-nav](assets/images/mobile-nav.png)
+
+  - #### Tablets and Desktop
+    An easy looking navigation menu is implemented on Larger screens above 575px breakpoint which revels the nav items in a nice and easily accesible way.
+
+     ![LargerScreen-nav](assets/images/Larger-nav.png)
+
+### **Hero image**
+
+    The website was deleveloped with hero images that help give users a visual representation of the nature of the event and its club-nights theme. There is a slightly transparent overlay at the center of the hero image which houses a strong message for the event, and the tagline for users to easily see, as well as a call to action button that prompts users to purchase their tickets now. To achieve full responsiveness without losing the main appeal of the hero image, I chose to use different images which loads up on mobile devices and larger screen devices as shown in the screenshots below. 
+
+- ### Mobile
+    ![Mobile-hero](assets/images/mobile-hero.png)
+
+- ### Desktop
+    ![Desktop-hero](assets/images/desktop-hero.png)
 
 
 ## Responsiveness
