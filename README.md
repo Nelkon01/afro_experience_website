@@ -107,24 +107,39 @@ To fufil the requirements of my portfolio project one, I am developing this webs
   ![Logo](assets/images/logo.webp)
 
   - #### Mobile
-    This wsebsite was developed taking the mombile first approach, therefore i ensured that the website doesnt lose any functionality regardless of the device the user is engaging with. The nav items collapses into a hamburger button that expands when clicked by the user to reveal the nav items. 
+    This wsebsite was developed taking the mobile first approach, therefore i ensured that the website doesnt lose any functionality regardless of the device the user is engaging with. The nav items collapses into a hamburger button that expands when clicked by the user to reveal the nav items. 
 
     ![Mobile-nav](assets/images/mobile-nav.png)
 
   - #### Tablets and Desktop
-    An easy looking navigation menu is implemented on Larger screens above 575px breakpoint which revels the nav items in a nice and easily accesible way.
+    An easy looking navigation menu is implemented on Larger screens above 575px breakpoint which revels the nav items in a nice and easily accesible way. Using the `.active` class on the current page allows the user to see which page they are currently on via a brighter highlight on the active page in the navigation and a ligher background.
 
      ![LargerScreen-nav](assets/images/Larger-nav.png)
 
 ### **Hero image**
 
-    The website was deleveloped with hero images that help give users a visual representation of the nature of the event and its club-nights theme. There is a slightly transparent overlay at the center of the hero image which houses a strong message for the event, and the tagline for users to easily see, as well as a call to action button that prompts users to purchase their tickets now. To achieve full responsiveness without losing the main appeal of the hero image, I chose to use different images which loads up on mobile devices and larger screen devices as shown in the screenshots below. 
+    The website was deleveloped with hero images that help give users a visual representation of the nature of the event and its club-nights theme. There is a slightly transparent overlay at the center of the hero image which houses a strong message for the event, and the tagline for users to easily see, as well as a call to action button that prompts users to purchase tickets immediately. To achieve full responsiveness without losing the main appeal of the hero image, I chose to use different images which loads up on mobile devices and larger screen devices as shown in the screenshots below. 
 
 - ### Mobile
     ![Mobile-hero](assets/images/mobile-hero.png)
 
 - ### Desktop
     ![Desktop-hero](assets/images/desktop-hero.png)
+
+### **About Section**
+
+    This includes a h2 and a concise paragraph describing the event and what the event is trying to achieve, and the organisers rationale for puting up the event. 
+
+  - ### Mobile
+
+  ![Mobile-about](assets/images/Mobile-About.png)
+
+  - ### Desktop
+
+  ![Desktop-about](assets/images/Desktop-about.png)
+
+
+
 
 
 ## Responsiveness
@@ -157,6 +172,8 @@ To fufil the requirements of my portfolio project one, I am developing this webs
 ### 3. Contact Page
 ![PC](assets/images/pc-contact.png)
 ![Thankspage PC](assets/images/pc-thankspage.png)
+
+
 
 
 
