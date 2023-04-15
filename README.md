@@ -129,14 +129,16 @@ To fufil the requirements of my portfolio project one, I am developing this webs
 ### **About Section**
 
     This includes a h2 and a concise paragraph describing the event and what the event is trying to achieve, and the organisers rationale for puting up the event. 
+    
+- ### Mobile
+    
+ ![Mobile-about](assets/images/Mobile-About.png)
 
-  - ### Mobile
+- ### Desktop
 
-  ![Mobile-about](assets/images/Mobile-About.png)
+![Desktop-about](assets/images/Desktop-about.png)
 
-  - ### Desktop
 
-  ![Desktop-about](assets/images/Desktop-about.png)
 
 
 
