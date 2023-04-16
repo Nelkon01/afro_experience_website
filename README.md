@@ -25,11 +25,12 @@ To view the live website on GitHub Pages click [Afro-Experience](https://nelkon0
     * [**Navigation Bar**](<#navigation-bar>)
     * [**Hero Image**](<#hero-image>)
     * [**About Section**](<#about-section>)
-    * [**Parallax Image**](<#parallax-image>)
-    * [**Notice & Events**](<#notice--events>)
+    * [**Event Details**](<#event-details-section>)
+    * [**Featured Performers**](<#>)
+    * [**Attendees Quotes**](<#>)
     * [**Footer**](<#footer>)
     * [**Gallery**](<#gallery>)
-    * [**Membership & Contact Page**](<#membership--contact-page>)
+    * [**Contact Page**](<#page>)
     * [**Event Calendar Page**](<#event-calendar-page>)
   * [**Features I would like to Implement**](<#features-i-would-like-to-implement>)
 * [**Technologies Used**](<#technologies-used>)
@@ -138,19 +139,33 @@ To fufil the requirements of my portfolio project one, I am developing this webs
 
 ![Desktop-about](assets/images/Desktop-about.png)
 
-### **Event Deatils Section**
+### **Event Details Section**
 
-    This section is where the event organnisers give notice to the users abotut the next event coming up. The call to action button directly links the user to this section. In this section, there is a poster for the event, then a brief paragraph to entice users interest, then an embedded tickets box that displays the types of tickets available and their price, and finally an embedded google map frame which the user can click to get easy direction and navigation the the events venue.
-    On mobile, the above elements are stacked nicely to ensure a seamless experience for mobile users as seen in the screenshot below.
+This section is where the event organnisers give notice to the users abotut the next event coming up. The call to action button directly links the user to this section. In this section, there is a poster for the event, then a brief paragraph to entice users interest, then an embedded tickets box that displays the types of tickets available and their price, and finally an embedded google map frame which the user can click to get easy direction and navigation the the events venue.
+<br>
 
+On mobile, the above elements are stacked nicely to ensure a seamless experience for mobile users as seen in the screenshot below.
+- ### Mobile
 ![Mobile-Event-Details](assets/images/Details-mobile1.png)
 ![Mobile-Event-Details](assets/images/Details-mobile2.png)
 
-    
+On the larger screens, the content stays the same. However, the viewport width is split into two columns using Bootstrap's `.col-md-6` class.  screenshot  is shown below.
+- ### Desktop
+![Desktop-Details](assets/images/Details-Desktop.png)
+
+### **Featured Performers Section**
+
+This section has a h2 header that clearly states what the section is. The purpose of this section is to provide the user with information of the headline acts to perform in the next event. I made use of Bootstrap 5's `.card` class for each scheduled performer, and used css styling to add additional styling to the cards. On Mobile, each cards occupy an entire row and on larger screens, the cards split a row.  Screenshots are shown below.
+
+- ### Mobile
+    ![Mobile-Featured](assets/images/Mobile-featured1.png)
+    ![Mobile-Featured](assets/images/Mobile-featured2.png)
+
+- ### Desktop
+    ![Desktop-Featured](assets/images/Desktop-featured.png)
 
 
 
-    This section allows the Administrator to add any notices/events that might be happening in the club. It includes a link to the events.html page as "View all events". I made use of flex in order to scale and align for both mobile and desktop. As seen below, under 768px screen width, the columns go from four to two and rows from one to two.
 
 
 
