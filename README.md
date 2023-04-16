@@ -138,6 +138,20 @@ To fufil the requirements of my portfolio project one, I am developing this webs
 
 ![Desktop-about](assets/images/Desktop-about.png)
 
+### **Event Deatils Section**
+
+    This section is where the event organnisers give notice to the users abotut the next event coming up. The call to action button directly links the user to this section. In this section, there is a poster for the event, then a brief paragraph to entice users interest, then an embedded tickets box that displays the types of tickets available and their price, and finally an embedded google map frame which the user can click to get easy direction and navigation the the events venue.
+    On mobile, the above elements are stacked nicely to ensure a seamless experience for mobile users as seen in the screenshot below.
+
+![Mobile-Event-Details](assets/images/Details-mobile1.png)
+![Mobile-Event-Details](assets/images/Details-mobile2.png)
+
+    
+
+
+
+    This section allows the Administrator to add any notices/events that might be happening in the club. It includes a link to the events.html page as "View all events". I made use of flex in order to scale and align for both mobile and desktop. As seen below, under 768px screen width, the columns go from four to two and rows from one to two.
+
 
 
 
