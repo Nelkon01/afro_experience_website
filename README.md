@@ -26,9 +26,9 @@ To view the live website on GitHub Pages click [Afro-Experience](https://nelkon0
     * [**Hero Image**](<#hero-image>)
     * [**About Section**](<#about-section>)
     * [**Event Details**](<#event-details-section>)
-    * [**Featured Performers**](<#>)
-    * [**Attendees Quotes**](<#>)
-    * [**Footer**](<#footer>)
+    * [**Featured Performers**](<#featured-performers-section>)
+    * [**Attendees Quotes**](<#attendees-quotes-section>)
+    * [**Footer**](<#footerr>)
     * [**Gallery**](<#gallery>)
     * [**Contact Page**](<#page>)
     * [**Event Calendar Page**](<#event-calendar-page>)
@@ -146,8 +146,8 @@ This section is where the event organnisers give notice to the users abotut the 
 
 On mobile, the above elements are stacked nicely to ensure a seamless experience for mobile users as seen in the screenshot below.
 - ### Mobile
-![Mobile-Event-Details](assets/images/Details-mobile1.png)
-![Mobile-Event-Details](assets/images/Details-mobile2.png)
+    ![Mobile-Event-Details](assets/images/Details-mobile1.png)
+    ![Mobile-Event-Details](assets/images/Details-mobile2.png)
 
 On the larger screens, the content stays the same. However, the viewport width is split into two columns using Bootstrap's `.col-md-6` class.  screenshot  is shown below.
 - ### Desktop
@@ -158,11 +158,36 @@ On the larger screens, the content stays the same. However, the viewport width i
 This section has a h2 header that clearly states what the section is. The purpose of this section is to provide the user with information of the headline acts to perform in the next event. I made use of Bootstrap 5's `.card` class for each scheduled performer, and used css styling to add additional styling to the cards. On Mobile, each cards occupy an entire row and on larger screens, the cards split a row.  Screenshots are shown below.
 
 - ### Mobile
-    ![Mobile-Featured](assets/images/Mobile-featured1.png)
-    ![Mobile-Featured](assets/images/Mobile-featured2.png)
+![Mobile-Featured](assets/images/Mobile-featured1.png) 
+![Mobile-Featured](assets/images/Mobile-featured2.png)
 
 - ### Desktop
-    ![Desktop-Featured](assets/images/Desktop-featured.png)
+![Desktop-Featured](assets/images/Desktop-featured.png)
+
+### **Attendees Quotes Section**
+
+This section has a h2 header to title the section. The purpose of this section is to give users a sense of authenticity and validity to the website and encourage users trust. I used Bootstraps 5 `.blockquote` class in this section for each quote and it is Responsive on all devices as well. Screenshots are shown below. 
+
+- ### Desktop
+![Desktop-Featured](assets/images/Desktop-Quotes.png)
+- ### Mobile
+![Mobile-Featured](assets/images/Mobile-Quotes.png)
+
+
+### **Footer**
+
+The footer contains a short message to users encouraging them to connect with the event via its social platforms. This footer includes the 5 social accounts that the event organisers operate. The footer also contains copyright information. However, currently, the social links included redirects the users to nthe respective social platform homepage for the purpose of this project. 
+
+- ### Desktop
+![Desktop-Footer](assets/images/footer-desktop.png)
+- ### Mobile
+![Mobile-Footer](assets/images/footer-mobile.png)
+
+
+
+
+
+
 
 
 
