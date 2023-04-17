@@ -44,7 +44,7 @@ To view the live website on GitHub Pages click [Afro-Experience](https://nelkon0
 * [**Credits**](<#credits>)
   * [**Content**](<#content>)
   * [**Media**](<#media>)
-* [**Acknowledgments**](<#acknowledgments>)
+* [**Acknowledgments**](<#acknowledgements>)
 
 # **Objective**
 To fufil the requirements of my portfolio project one, I am developing this website to provide information about an Afro-Beats periodic event. This website is indended to demonstrate competency in usercentric frontend web development using HTML and CSS. This project will also showcase my attention to details and the importance of thorough testing. 
@@ -266,7 +266,7 @@ The footer contains a short message to users encouraging them to connect with th
 8. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
  
-# **Future Features**
+
 
 
 ## **Testing**
@@ -450,10 +450,12 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 
--   [Bootstrap5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive and to utilize bootsrap styling.
+-   [Bootstrap 5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive and to utilize bootsrap styling.
 
 
 -   The code to assist with the layout and responsiveness of the gallery page was gotten from this [CSS Tricks](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/#:~:text=grid%2Dtemplate%2Dcolumns%3A%20repeat(%20auto%2Dfit%2C,them%20in%20without%20any%20overflow.))
+
+-    [W3 Schools](https://www.w3schools.com/html/default.asp) was very instrumental in helping me understand some basic html and css fundamentals and taking advantage of Bootstrap classes
 
 
 
@@ -463,8 +465,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Background Images was gotten from [Freepic](https://www.freepic.com)
--   The featured performers images was gotten from [Freepic]()
+-   Hero background image was <a href="https://www.freepik.com/free-photo/party-celebration-wallpaper-background-monochrome_35526893.htm#query=party%20celebration%20monochrome%20club&position=1&from_view=search&track=ais">Image by rawpixel.com</a> on Freepik
+-   DJ 1 was <a href="https://www.freepik.com/free-photo/young-handsome-serious-sad-hipster-man-listening-music-with-headphones-black-studio-with-neon-lights_10427221.htm#query=black%20dj&position=20&from_view=search&track=ais">Image by master1305</a> on Freepik
+-   DJ 2 picture was <a href="https://www.freepik.com/free-photo/man-with-headphones-covering-his-mouth-with-vinyl-record_998456.htm#query=black%20dj&position=48&from_view=search&track=ais">Image by asier_relampagoestudio</a> on Freepik
+-    All Background images was gotten from [Freepic](https://www.freepik.com/search?format=search&last_filter=selection&last_value=1&query=black%20club&selection=1)
 -   The Images and Video in the gallery.html page was taken and created by the developer form past events. 
 
 ### Acknowledgements
