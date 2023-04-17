@@ -30,16 +30,15 @@ To view the live website on GitHub Pages click [Afro-Experience](https://nelkon0
     * [**Attendees Quotes**](<#attendees-quotes-section>)
     * [**Footer**](<#footerr>)
     * [**Gallery**](<#gallery>)
-    * [**Contact Page**](<#page>)
-    * [**Event Calendar Page**](<#event-calendar-page>)
-  * [**Features I would like to Implement**](<#features-i-would-like-to-implement>)
+    * [**Contact Page**](<#contact-page>)
+    * [**Responsiveness**](<#responsiveness>)
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
+* [**Testing User Stories**](<#testing-user-stories-from-user-experience-ux-section>)
 * [**Validator Testing**](<#validator-testing>)
   * [**index.html**](<#indexhtml>)
   * [**gallery.html**](<#galleryhtml>)
-  * [**signup.html**](<#signuphtml>)
-  * [**events.html**](<#eventshtml>)
+  * [**contact.html**](<#contacthtml>)
   * [**style.css**](<#stylecss>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
@@ -97,9 +96,9 @@ To fufil the requirements of my portfolio project one, I am developing this webs
 
 # **Features**
       
-    The Afro Experience website includes very useful features as listed below. They include familiar functionalities such as navigation, gallery and contact form. The website is designed for users to experience ease of use in browsing and navigating through the website. It takes the mobile first approach to website design acknowledging the fact that most web users in the world at the momemnt consume web content on their mobile phione.
+The Afro Experience website includes very useful features as listed below. They include familiar functionalities such as navigation, gallery and contact form. The website is designed for users to experience ease of use in browsing and navigating through the website. It takes the mobile first approach to website design acknowledging the fact that most web users in the world at the momemnt consume web content on their mobile phione.
 
-  ## **Existing Features**
+## **Existing Features**
 
   ### **Navigation Bar**
 
@@ -113,13 +112,13 @@ To fufil the requirements of my portfolio project one, I am developing this webs
     ![Mobile-nav](assets/images/mobile-nav.png)
 
   - #### Tablets and Desktop
-    An easy looking navigation menu is implemented on Larger screens above 575px breakpoint which revels the nav items in a nice and easily accesible way. Using the `.active` class on the current page allows the user to see which page they are currently on via a brighter highlight on the active page in the navigation and a ligher background.
+An easy looking navigation menu is implemented on Larger screens above 575px breakpoint which revels the nav items in a nice and easily accesible way. Using the `.active` class on the current page allows the user to see which page they are currently on via a brighter highlight on the active page in the navigation and a ligher background.
 
-     ![LargerScreen-nav](assets/images/Larger-nav.png)
+![LargerScreen-nav](assets/images/Larger-nav.png)
 
 ### **Hero image**
 
-    The website was deleveloped with hero images that help give users a visual representation of the nature of the event and its club-nights theme. There is a slightly transparent overlay at the center of the hero image which houses a strong message for the event, and the tagline for users to easily see, as well as a call to action button that prompts users to purchase tickets immediately. To achieve full responsiveness without losing the main appeal of the hero image, I chose to use different images which loads up on mobile devices and larger screen devices as shown in the screenshots below. 
+The website was deleveloped with hero images that help give users a visual representation of the nature of the event and its club-nights theme. There is a slightly transparent overlay at the center of the hero image which houses a strong message for the event, and the tagline for users to easily see, as well as a call to action button that prompts users to purchase tickets immediately. To achieve full responsiveness without losing the main appeal of the hero image, I chose to use different images which loads up on mobile devices and larger screen devices as shown in the screenshots below. 
 
 - ### Mobile
     ![Mobile-hero](assets/images/mobile-hero.png)
@@ -183,22 +182,30 @@ The footer contains a short message to users encouraging them to connect with th
 - ### Mobile
 ![Mobile-Footer](assets/images/footer-mobile.png)
 
+### **Gallery**
+
+- The gallery provides the user with supporting images and to see what previous events have looked like.
+
+- The gallery also serves as a provider of Social proof to demonstrate to users that the events are well-attended, well-organised and fun.
+
+- The gallery section has an embedded youtube iframe that can be played from the directly from the website which plays a video already created about the event.
+
+- The gallery section is also resposive so it displays 3 columns on dektops, 2 on Tablets and 1 on mobile.
 
 
+![gallery](assets/images/pc-gallerypage.png)
+![Gallery page PC](assets/images/pc-gallery2.png)
 
+### **Contact Page**
 
+- This page is intended to allow users who are performers and have interest in performing in an event get in touch with the organisers.
+- This page is also intended to allow sponsors to contact the organisers for potential sponsorship opportunities.
+- Upon submisssion of the form, the user is presented with a message which is another page `thanks.html` alerting the user that their reponse has been received. This approached was used because there is no backend set up for the website to receive and store data yet. 
 
+![PC](assets/images/pc-contact.png)
+![Thankspage PC](assets/images/thankspage.png)
 
-
-
-
-
-
-
-
-
-
-## Responsiveness
+## **Responsiveness**
 
 ### Screenshots
 ## Mobile
@@ -230,10 +237,7 @@ The footer contains a short message to users encouraging them to connect with th
 ![Thankspage PC](assets/images/pc-thankspage.png)
 
 
-
-
-
-## Technologies Used
+## **Technologies Used**
 
 ### Languages Used
 
@@ -246,6 +250,8 @@ The footer contains a short message to users encouraging them to connect with th
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 2. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Montserrat' and the 'Fasthand' font into the style.css file which is used on all pages throughout the project.
+3.  [Visual Studio Code:](https://code.visualstudio.com/)
+    - Vs Code was used to develop this website.
 3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages to show the social media icons in the footer, and on the contact page of the website to add icons for aesthetic and UX purposes.
 4. [jQuery:](https://jquery.com/)
@@ -260,59 +266,10 @@ The footer contains a short message to users encouraging them to connect with th
 8. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
  
+# **Future Features**
 
 
-
-
-## Features 
-
-### Website Content
-
-## 1. __Home Page__
-- __Navigation Bar__
-    
-    - The basic outline for the Navigation bar has been declared in the index.html which will contain links to the home, gallery, contact-us pages of website.
-    
-- __Hero Section__
-
-    - This section has a catchy hero image with text overlay to draw the users attention to the event.
-    - This section has a clear call to action to the user to purchase tickets for the next event which will take the user to the Event details section.  
-
-- __About Section__
-
-    - This section gives a concise explanation of the event. and what it is all about. 
-
-- __Event Details__
-
-    - This section gives a description of the featured upcoming event. 
-    - It has a image of the event poster and accompanying text.
-    - A link to the ticketing platform has been embeded in this section so users can choose tickets to buy with ease.
-    - A google map element has been embeded to assist users with navigation to the events location. 
-
-- __Featured Performers__
-
-    - This section conatanis information about the performers scheduled to perform at the event, including bios, photos and links to their music.
-
-
-- __Reviews__
-
-    - This section includes quotes and testimonials from previous attendees to build user confidence and excitement towards attendance
-
-- __The Footer__
-
-    - The footer section contains copyright information.
-    - The footer contains links to the events social media accounts, where users can stay up to date on the latest news and updates about the event. The links will open to a new tab to allow easy navigation for the user.  
-
-## 2. __Gallery__ 
-
-    - The gallery provides the user with supporting images and to see what previous events have looked like. 
-    - The gallery also serves as a provider of Social proof to demonstrate to users that the events are well-attended, well-organised and fun.
-
-## 3. __The Contact Us Page__
-    - This page is intended to allow users who are performers and have interest in performing in an event get in touch with the organisers.
-    - This page is also intended to allow sponsors to contact the organisers for potential sponsorship opportunities.
-
-
+## **Testing**
     
 ### Testing User Stories from User Experience (UX) Section
 
@@ -366,11 +323,79 @@ The footer contains a short message to users encouraging them to connect with th
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+- As a result of using the Bootsrap 5 hamburger icon for the mobile navbar. This did not work well with the navbar dark theme and it was impossible to see the icon.
+
+    ### __Fix:__
+    - I had to change the color using `style.css`; I used the Google chrome developer tools to access the link to the bootsrap hamburger image, and then changed the RGBA values.
+
+
+-   On some mobiles and tablets, the `contact.html` page background had some distortion problems as shown below
+![Distortion-bug](assets/images/Responsiveness-Bug.png)
+### __Fix:__
+    - This was fixed by changing the display property of the page background class to `flex`
+
+
+# **Validator Testing**
+
+  ## **index.html**
+
+  ### [The W3C Markup Validation Service](https://validator.w3.org/)
+
+  ![html-index](assets/images/index-validator.png)
+
+  ### Lighthouse Validation
+
+  * Mobile
+
+  ![lighthouse-index-mobile](assets/images/index-lighthouse-mobile.png)
+
+  * Desktop
+
+  ![lighthouse-index-desktop](assets/images/index-desktop-lighthouse.png)
+
+
+  ## **gallery.html**
+
+  ### [The W3C Markup Validation Service](https://validator.w3.org/)
+
+  ![html-gallery](assets/images//gallery-validator.png)
+
+  ### Lighthouse Validation
+
+  * Mobile
+
+  ![lighthouse-gallery-mobile](assets/images/mobile-gallery-lighthouse.png)
+
+  * Desktop
+
+  ![lighthouse-gallery-desktop](assets/images/desktop-gallery-lighthouse.png)
+
+
+
+  ## **contact.html**
+
+  ### [The W3C Markup Validation Service](https://validator.w3.org/)
+
+  ![html-contact](assets/images/contact-validator.png)
+
+  ### Lighthouse Validation
+
+  * Mobile
+
+  ![lighthouse-contact-mobile](assets/images/mobile-contact-lighthouse.png)
+
+  * Desktop
+
+  ![lighthouse-contact-desktop](assets/images/desktop-contact-lighthouse.png)
+ 
+  
+  ## **style.css**
+
+  Passed [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) with no errors:
+
+  ![w3-css](assets/images/css.validator.png)
 
 ## Deployment
 
@@ -424,11 +449,9 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
 -   [Bootstrap5](https://getbootstrap.com/docs/5.3/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive and to utilize bootsrap styling.
 
--   [MDN Web Docs](https://developer.mozilla.org/): For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
 
 -   The code to assist with the layout and responsiveness of the gallery page was gotten from this [CSS Tricks](https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/#:~:text=grid%2Dtemplate%2Dcolumns%3A%20repeat(%20auto%2Dfit%2C,them%20in%20without%20any%20overflow.))
 
@@ -438,11 +461,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   All content was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
 ### Media
 
 -   All Background Images was gotten from [Freepic](https://www.freepic.com)
+-   The featured performers images was gotten from [Freepic]()
 -   The Images and Video in the gallery.html page was taken and created by the developer form past events. 
 
 ### Acknowledgements
